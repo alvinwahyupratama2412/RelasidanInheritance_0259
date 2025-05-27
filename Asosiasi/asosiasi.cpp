@@ -66,4 +66,8 @@ int main(){
     varDokter1->tambahPasien(varPasien1);
     varDokter1->tambahPasien(varPasien2);
     varDokter2->tambahPasien(varPasien1);
+
+    varPasien1->tambahDokter(varDokter1);
+    varPasien2->tambahDokter(varDokter1);
+    varPasien1->tambahDokter(varDokter2);
 }
