@@ -75,4 +75,11 @@ int main(){
     varDokter2->cetakPasien();
     varPasien1->cetakDokter();
     varPasien2->cetakDokter();
+
+    delete varDokter1;
+    delete varDokter2;
+    delete varPasien1;
+    delete varPasien2;
+
+    return 0;
 }
